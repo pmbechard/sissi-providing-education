@@ -83,3 +83,58 @@ button:hover {
 h3 {
   padding: 10px 0;
 }
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    width: 90vw;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  body,
+  .main-content,
+  footer {
+    height: auto;
+    width: 100vw;
+  }
+
+  main {
+    height: auto;
+  }
+
+  p,
+  h3,
+  div {
+    width: 90vw;
+    padding-left: 5vw;
+  }
+
+  img {
+    width: 90vw;
+  }
+
+  main {
+    padding: 10px 0;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+  }
+
+  button {
+    width: 150px;
+  }
+
+  .main-content {
+    flex-direction: column;
+  }
+}
